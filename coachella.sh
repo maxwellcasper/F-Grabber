@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##   Casper S Hunter 	: 	Automated Phishing Tool
+##   Facebook Grabber	: 	Automated Phishing Tool
 ##   Author 	: 	Maxwell Casper 
 ##   Version 	: 	007
 ##   Github 	: 	https://github.com/maxwellcasper
